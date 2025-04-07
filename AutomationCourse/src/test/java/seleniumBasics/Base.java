@@ -10,6 +10,7 @@ public class Base {
 
 	public void initializeBrowser() {
 		driver = new ChromeDriver();
+		//driver.get("https://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
 		driver.get("https://selenium.qabible.in/");
 		driver.manage().window().maximize();
 	}

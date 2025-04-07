@@ -12,6 +12,8 @@ public class Tablehandling extends Base{
 		showmore.click();
 		WebElement datatable=driver.findElement(By.id("dataTable"));
 		System.out.println(datatable.getText());
+		WebElement tablerow=driver.findElement(By.xpath("//table[@id='dataTable']/tbody/tr[2]"));
+		System.out.println(tablerow.getText());
 	}
 
 	public static void main(String[] args) {

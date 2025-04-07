@@ -40,7 +40,7 @@ public class HandlingDropdown extends Base{
 		dropdown.initializeBrowser();
 		//dropdown.verifydropdown();
 		dropdown.verifycheckbox();
-		dropdown.verifyradiobutton();
+		//dropdown.verifyradiobutton();
 		//dropdown.closeAndQuit();
 	}
 

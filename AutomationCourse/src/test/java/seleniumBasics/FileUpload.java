@@ -25,7 +25,7 @@ public class FileUpload extends Base{
 		driver.navigate().to("https://www.ilovepdf.com/pdf_to_word");
 		WebElement selectPdfFile=driver.findElement(By.xpath("//a[@id='pickfiles']"));
 		selectPdfFile.click();
-		StringSelection s=new StringSelection("C:\\\\Users\\\\msman\\\\git\\\\Automation_21-03-2025\\\\AutomationCourse\\\\src\\\\test\\\\resources\\\\Selenium Notes from 24-03-2025.pdf");
+		StringSelection s=new StringSelection("C:\\Users\\msman\\git\\Automation_21-03-2025\\AutomationCourse\\src\\test\\resources\\Selenium Notes from 24-03-2025.pdf");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(s,null);
 		Robot robot=new Robot();
 		robot.delay(2500);

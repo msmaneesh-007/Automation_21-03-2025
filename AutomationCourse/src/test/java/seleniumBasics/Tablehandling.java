@@ -16,6 +16,7 @@ public class Tablehandling extends Base{
 		System.out.println(tablerow.getText());
 	}
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Tablehandling table=new Tablehandling();

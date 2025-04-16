@@ -17,4 +17,5 @@ public class LoginTest extends TestNgBase {
 		WebElement loginbutton=driver.findElement(By.id("login-button"));
 		loginbutton.click();
 	}
+	
 }

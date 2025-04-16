@@ -43,7 +43,7 @@ public class FileUpload extends Base{
 	public static void main(String[] args) {
 		FileUpload file=new FileUpload();
 		file.initializeBrowser();
-		file.verifyfileuploadusingsendkeys();
+		//file.verifyfileuploadusingsendkeys();
 		try {
 			file.verifyfileuploadusingroboatclass();
 		} catch (AWTException e) {

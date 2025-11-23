@@ -41,8 +41,7 @@ public class LoginPage {
 		WebElement invalidloginErrormsg=driver.findElement(By.xpath("//h3[@data-test='error']"));
 		Assert.assertTrue(invalidloginErrormsg.isDisplayed());
 		driver.quit();
-		
-		
+			
 	}
 
 	public static void main(String[] args) {

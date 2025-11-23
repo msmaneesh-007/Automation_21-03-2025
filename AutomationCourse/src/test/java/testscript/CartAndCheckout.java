@@ -21,7 +21,7 @@ public class CartAndCheckout {
 	public WebDriver driver;
 
 	@Test
-	public void sortValidationPriceHightoLow() throws AWTException {
+public void sortValidationPriceHightoLow() throws AWTException {
 		driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();
